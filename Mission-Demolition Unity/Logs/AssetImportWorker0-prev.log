@@ -1,0 +1,146 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19044.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity Installs\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/School Unity Projects/Mission-Demolition/Mission-Demolition Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62499
+Successfully changed project path to: D:/School Unity Projects/Mission-Demolition/Mission-Demolition Unity
+D:/School Unity Projects/Mission-Demolition/Mission-Demolition Unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/Unity Installs/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/School Unity Projects/Mission-Demolition/Mission-Demolition Unity/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.13023.1012
+Initialize mono
+Mono path[0] = 'D:/Unity Installs/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Installs/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Installs/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Installs/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Installs/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Installs/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002056 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 2.606000 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.236800 ms  DeleteObjects: 0.117100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(89e64042284eaf248b0bec314c38748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(89e64042284eaf248b0bec314c38748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e08072dcbf6471b92d6467e86109e9f') in 0.011575 seconds
+  Import took 0.016309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.019137 seconds
+  Import took 0.022219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.065291 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(7d455f8bd8eee454e92ca0f1e7020395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(7d455f8bd8eee454e92ca0f1e7020395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad25725a9f864a387462e1cc09770e5') in 0.011063 seconds
+  Import took 0.013879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.781374 seconds.
+  path: Assets/Materials/Mat_Ground.mat
+  artifactKey: Guid(a2ca131cc79de6b44b9c283ac946c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Ground.mat using Guid(a2ca131cc79de6b44b9c283ac946c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6da1f17432bd89b9f37ffde1ac6e04d') in 0.141684 seconds
+  Import took 0.144639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3338.765930 seconds.
+  path: Assets/Materials/Mat_Ground.mat
+  artifactKey: Guid(a2ca131cc79de6b44b9c283ac946c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Ground.mat using Guid(a2ca131cc79de6b44b9c283ac946c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8bdf07c5ede004d6b45bbcf579e381') in 0.038757 seconds
+  Import took 0.042271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5002.493359 seconds.
+  path: Assets/Materials/Mat_Slingshot.mat
+  artifactKey: Guid(00799288b36c4c641bd70e861d1da4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Slingshot.mat using Guid(00799288b36c4c641bd70e861d1da4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35a3314f8e21fd83720b2381127c50e') in 0.034180 seconds
+  Import took 0.037396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 492.083832 seconds.
+  path: Assets/Materials/Mat_Slingshot.mat
+  artifactKey: Guid(00799288b36c4c641bd70e861d1da4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Slingshot.mat using Guid(00799288b36c4c641bd70e861d1da4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cbf4ebfedd09c1a0f2186f443bfacf') in 0.030697 seconds
+  Import took 0.034375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.989513 seconds.
+  path: Assets/Materials/Mat_Projectile.mat
+  artifactKey: Guid(fa7f5d9e4157ef949bf49164d081abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Projectile.mat using Guid(fa7f5d9e4157ef949bf49164d081abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59538c643539e30c09a422fe3f1dfa87') in 0.023948 seconds
+  Import took 0.027179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.276677 seconds.
+  path: Assets/Materials/Mat_Projectile.mat
+  artifactKey: Guid(fa7f5d9e4157ef949bf49164d081abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Projectile.mat using Guid(fa7f5d9e4157ef949bf49164d081abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8654c473c0826d8a5d7cb787026ea0') in 0.020392 seconds
+  Import took 0.024211 seconds .
+
