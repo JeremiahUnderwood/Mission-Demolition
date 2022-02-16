@@ -43,6 +43,14 @@ public class CloudCrafter : MonoBehaviour
             float scaleVal = Mathf.Lerp(cloudScaleMin, cloudScaleMax, scaleU);
 
             cPos.y = Mathf.Lerp(cloudPositionMin.y, cPos.y, scaleU);
+
+            cPos.z = 100 - 90 * scaleU;                                        //make smaller clouds further away, technically might not actually matter due to orthographic camera
+
+            cloud.transform.position = cPos;
+            cloud.transform.SetParent(anchor.transform);
+            cloudInstances[i] = cloud;
+
+
         }
     }
 
@@ -55,6 +63,19 @@ public class CloudCrafter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (GameObject cloud in cloudInstances)
+        {
+            float scaleVal = cloud.transform.localScale.x;      //put these values in variables for ease of access
+            Vector3 cPos = cloud.transform.position;
+
+            cPos.x -= scaleVal * Time.deltaTime * cloudSpeedMultiplier;      //scale to move closer clouds faster, and scales by time.deltaTime
+
+            if (cPos.x <= cloudPositionMin.x)         //keeps cloud from moving infinitely off the screen
+            {
+                cPos.x = cloudPositionMax.x;
+            }
+
+            cloud.transform.position = cPos;
+        }
     }
 }

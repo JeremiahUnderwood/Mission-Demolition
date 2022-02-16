@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &195754266
+--- !u!1 &455413585
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,36 +131,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 195754268}
-  - component: {fileID: 195754267}
+  - component: {fileID: 455413587}
+  - component: {fileID: 455413586}
   m_Layer: 0
-  m_Name: Cloud
+  m_Name: CloudAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &195754267
+--- !u!114 &455413586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195754266}
+  m_GameObject: {fileID: 455413585}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad29ed778fe0014fb4bdc4548833254, type: 3}
+  m_Script: {fileID: 11500000, guid: 754c8081396333144a88e9d36a67ab4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &195754268
+  numberOfClouds: 40
+  cloudPrefab: {fileID: 778251020185776842, guid: bbf1c3cf3ee94bd4ca263f0f3cd7f9ab, type: 3}
+  cloudPositionMin: {x: -50, y: -5, z: 10}
+  cloudPositionMax: {x: 150, y: 100, z: 10}
+  cloudScaleMin: 1
+  cloudScaleMax: 3
+  cloudSpeedMultiplier: 0.5
+--- !u!4 &455413587
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195754266}
+  m_GameObject: {fileID: 455413585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.12655, y: -4.158096, z: -2.41753}
+  m_LocalPosition: {x: 2.4349146, y: -7.532386, z: -3.5011158}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
