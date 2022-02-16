@@ -13,6 +13,7 @@ using UnityEngine;
 
 public class Slingshot : MonoBehaviour
 {
+    static private Slingshot S;
 
     public GameObject prefabProjectile;
     public float velocityMultiplier = 8f;
@@ -24,8 +25,19 @@ public class Slingshot : MonoBehaviour
     [SerializeField] private Rigidbody projectileRB;
     [SerializeField] private bool aimingMode = false;
 
+    static public Vector3 Launch_Pos
+    {
+        get
+        {
+            if (S == null) return Vector3.zero;
+            return S.LaunchPos;
+        }
+    }
+
     private void Awake()                             //initialise some stuff
     {
+        S = this;
+
         Transform LaunchPointTrans = transform.Find("LaunchPoint");
         launchPoint = LaunchPointTrans.gameObject;                      //complicated way of getting reference to launch point
         launchPoint.SetActive(false);
