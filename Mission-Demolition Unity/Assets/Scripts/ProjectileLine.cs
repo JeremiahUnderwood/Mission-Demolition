@@ -38,7 +38,7 @@ public class ProjectileLine : MonoBehaviour
         set
         {
             _poi = value;
-            if(poi != null)
+            if(_poi != null)
             {
                 line.enabled = false;
                 points = new List<Vector3>();
@@ -110,7 +110,6 @@ public class ProjectileLine : MonoBehaviour
             }
             else return;
         }
-        else return;
 
         AddPoint ();
         if (FollowCam.POI == null)
