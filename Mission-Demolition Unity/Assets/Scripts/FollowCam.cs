@@ -40,7 +40,7 @@ public class FollowCam : MonoBehaviour
             destination = POI.transform.position;
             if (POI.tag == "Projectile")
             {
-                if (POI.GetComponent<Rigidbody>().IsSleeping())
+                if (POI.GetComponent<Rigidbody>().IsSleeping() || (POI.GetComponent<Rigidbody>().velocity.magnitude < 0.05f)) // modified to make the game reset the camera a bit faster
                 {
                     POI = null;
                 }
